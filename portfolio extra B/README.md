@@ -25,24 +25,40 @@ Four required pages:
      Project's structure:
 .
 ├── index.html
+
 ├── about.html
+
 ├── projects.html
+
 ├── contact.html
+
 ├── assets
+
 │   ├── images
+
 │       ├── apps.png 
+
 │       ├── map.png
+
 │       ├── wiz.png
+
 │       ├── profile.jpg
+
 │   └── hat.ico (favicon)
+
 ├── styles.css
+
 └── README.md
 
 
      How to use the project:
 
 step 1: download the codes to vscode.
+
 step 2: You MUST have Live Server extension downloaded.
+
 step 3: run index.html file with live server.
+
 step 4: view the website
+
 
