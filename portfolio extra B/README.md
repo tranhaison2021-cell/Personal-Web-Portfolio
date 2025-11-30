@@ -36,13 +36,13 @@ Four required pages:
 
 │   ├── images
 
-│       ├── apps.png 
+     │       ├── apps.png 
 
-│       ├── map.png
+     │       ├── map.png
 
-│       ├── wiz.png
+     │       ├── wiz.png
 
-│       ├── profile.jpg
+     │       ├── profile.jpg
 
 │   └── hat.ico (favicon)
 
@@ -60,5 +60,6 @@ step 2: You MUST have Live Server extension downloaded.
 step 3: run index.html file with live server.
 
 step 4: view the website
+
 
 
