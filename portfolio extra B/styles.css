@@ -1,0 +1,162 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f7f7f7;
+  color: #333;
+  padding-top: 80px; 
+}
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #38838a;
+  padding: 18px 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  list-style: none;
+}
+
+.navbar a {
+  color: #eee;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: #00bcd4;
+}
+
+.navbar a.active {
+  color: #00bcd4;
+  border-bottom: 2px solid #00bcd4;
+}
+
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+        
+}
+
+section {
+  margin: 50px 0;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+
+.about-wrapper {
+  display: block;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-wrapper img {
+  width: 280px;
+  border-radius: 10px;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding-bottom: 20px;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card h3,
+.project-card p {
+  margin: 15px;
+}
+
+.details-btn {
+  margin-left: 15px;
+  padding: 8px 18px;
+  border: 2px solid #00bcd4;
+  color: #00bcd4;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+}
+
+
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+
+.project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 5px;
+    line-height: 2.0
+}
+
+.experience-item {
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #fff8f0;
+    border-left: 4px solid #00ff3c;
+}
